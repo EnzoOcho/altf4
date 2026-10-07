@@ -1,0 +1,121 @@
+/* CONTENEDOR GENERAL */
+.table-container {
+    width: 90%;
+    justify-self: center;
+    overflow-x: auto;
+    background: #111827;
+    border-radius: 18px;
+    padding: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  }
+  
+  /* TABLA */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+    color: #f3f4f6;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* HEADER */
+  .custom-table thead {
+    background: #1f2937;
+  }
+  
+  .custom-table th {
+    padding: 16px;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #374151;
+    color: #9ca3af;
+  }
+  
+  /* FILAS */
+  .custom-table tbody tr {
+    transition: background 0.2s ease;
+  }
+  
+  .custom-table tbody tr:hover {
+    background: rgba(255,255,255,0.04);
+  }
+  
+  /* CELDAS */
+  .custom-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #1f2937;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  
+  /* IMAGEN */
+  .product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #1f2937;
+    border: 2px solid #374151;
+  }
+  
+  /* TITULO */
+  .product-title {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  /* SKU */
+  .product-sku {
+    color: #9ca3af;
+    font-size: 13px;
+  }
+  
+  /* STOCK */
+  .stock {
+    font-weight: bold;
+    color: #34d399;
+  }
+  
+  /* STOCK BAJO */
+  .stock.low {
+    color: #f87171;
+  }
+  
+  /* PRECIO */
+  .price {
+    font-weight: bold;
+    color: #60a5fa;
+  }
+  
+  .utility{
+    width: 50px;
+  }
+  /* BOTONES */
+  .action-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  
+  .action-btn.edit {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .action-btn.edit:hover {
+    background: #1d4ed8;
+  }
+  
+  .action-btn.delete {
+    background: #dc2626;
+    color: white;
+  }
+  
+  .action-btn.delete:hover {
+    background: #b91c1c;
+  }
