@@ -1,0 +1,99 @@
+.login_page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #e3e889;
+background: linear-gradient(360deg, rgb(232, 208, 137) 0%, rgba(240, 240, 240, 1) 58%); */
+    background: linear-gradient(135deg, rgba(255, 26, 110, 0.06) 0%, transparent 60%);
+    border-bottom: 1px solid var(--clr-border);
+    background-attachment: fixed;
+    
+}
+
+.form_box {
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    height: 400px;
+    width: 400px;
+    /* border-radius: 30px; */
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.132);
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.39);
+    /* opacity: 0.5; */
+    background: var(--clr-surface);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius-lg);
+    
+    box-shadow: var(--shadow-card-hover);
+        font-family: var(--font-display);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 70%;
+    padding: 10px;
+}
+
+/* form>h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 28px;
+} */
+
+.form_box>input {
+    width: 80%;
+    height: 50px;
+    border-radius: var(--radius-lg);
+    border: none;
+    padding-left: 20px;
+    background-color: #e9e8e8db;
+    margin-bottom: 10px;
+    font-family: var(--font-display);
+    font-size: 1rem;
+}
+
+.submit_btn {
+    width: 80%;
+    height: 50px;
+    border-radius: var(--radius-lg);
+    border: none;
+    background: #000000;
+    color: white;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+    transition: ease-in-out 0.2s;
+}
+
+.submit_btn:hover {
+    background-color: #db2777;
+    cursor: pointer;
+}
+
+.signin_icon {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--clr-surface-2);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-base);
+
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
